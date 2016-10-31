@@ -50,3 +50,33 @@ $ npm install eslint-loader --save-dev
 發現執行到 eslint-loader 後 也將其他 reactjs101 提到的其他套件(eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react)也已經安裝好（可能是該套件後來版本合併了。）
 
 ## 以上為開發過程記錄
+
+
+
+### 有幾個錯誤出現，但網頁可正常執行。 詢問該錯誤為何
+
+```
+ERROR in ./src/components/App/App.js
+
+User/single_page/src/components/App/App.js
+  6:13  error  Unexpected parentheses around single function argument having a body with no curly braces  arrow-parens
+  20:3   error  Prop type `object` is forbidden                                                            react/forbid-prop-types
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+ERROR in ./src/components/Repos/Repos.js
+
+User/single_page/src/components/Repos/Repos.js
+  3:15  error  Unexpected parentheses around single function argument having a body with no curly braces  arrow-parens
+  11:3   error  Prop type `object` is forbidden                                                            react/forbid-prop-types
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+ERROR in ./src/components/NavLink/NavLink.js
+
+User/single_page/src/components/NavLink/NavLink.js
+  :17  error  Unexpected parentheses around single function argument having a body with no curly braces  arrow-parens
+  5:3   error  Anchors must have content and the content must be accessible by a screen reader            jsx-a11y/anchor-has-content
+```
