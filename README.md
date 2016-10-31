@@ -33,6 +33,7 @@ $ npm install --save-dev babel-core babel-eslint babel-loader babel-preset-es201
 ```
 
 依序執行安裝eslint 相關套件。
+
 a.
 ```
 $ npm install eslint --save-dev
